@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+p {
+  font: normal 1em/1.5em Raleway, sans-serif;
+}
+
+figcaption {
+  font: normal 0.75em/1.5em Georgia, "Times New Roman", serif;
+}
+
+.milk-text {
+  font: bold 2.6em Raleway, cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo-box {
+  background: aqua;
+}
+
+#details div h3 {
+  color: deeppink;
+}
+
+#details a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+#details a:visited {
+  color: mediumpurple;
+}
+
+#details a:hover {
+  cursor:crosshair;
+}
+
+#details a:active {
+  color: black;  
+}
+
+a:active {
+  color: black;
+}
