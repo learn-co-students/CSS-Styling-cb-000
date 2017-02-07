@@ -1,0 +1,42 @@
+git pull@@import url("https://fonts.googleapis.com/css?family=Elsie+Swash+Caps");
+@@import url()
+/* This is a comment!
+
+
+*/
+
+/* CSS Syntax
+selector{
+  property: value;}
+
+*/
+/* Tyoe Selector */
+p{
+  font-size: 1em;
+  line-height: 1.5em;
+}
+figcaption{
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif;*/
+  font: normal, 0.75em/1.5em, 'Elsie Swash Caps', "New Times Roman", serif;
+  color: #777 ;
+}
+.milk-text{/* select elements with class attr milktext */
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+}
+/* class selector (applied to as many elements as you like)*/
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+#logo h2 {: 'Elsie Swash Caps', cursive;}
+
+#details a:link {color: black;
+  text-decoration: none;}
+
+#details a:hover{color: black; text-decoration: underline;}
+
+#detaild a:active{color: red; text-decoration: none;}
+
+/* this is another attempt at submission */
