@@ -1,0 +1,46 @@
+@@import url("https://fonts.google.com/specimen/Caveat+Brush?selection.family=Caveat+Brush")
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;*/
+  /*font-family: Georgia, "New Times Roman", serif;*/
+  font: normal 2em/1.5em 'Caveat Brush', cursive;
+  color: grey;
+  text-align: right;
+}
+
+/*class selectors*/
+.milk-text {
+  font: bold 2.6em Georgia, 'Times New Roman', serif;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/*ID selectors*/
+
+#logo {
+  background: aqua;
+}
+
+/*Desendant selectors*/
+#logo h1 {
+  font-weight: bold;
+}
+
+#details a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+#details a:active {
+  color: red;
+  text-decoration: none;
+}
