@@ -1,0 +1,40 @@
+/*
+This is a comment
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: "Raleway", sans-serif;
+}
+
+figcaption {
+/*  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "New Times Roman", serif; */
+  font: normal 0.75em/1.5em "Raleway", "New Times Roman", serif;
+  color: grey;
+}
+
+.milk-text {
+  font: bold 2.6em "Lobster", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  font-family: "Lobster", cursive;
+  background-color: cyan;
+}
+
+#logo h1 {
+  color: green;
+}
+
+#details a:visited {
+  color: blue;
+}
