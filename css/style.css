@@ -28,14 +28,14 @@ figcaption {
 /* class selector, can apply to many different elements */
 .milk-text { /*select elements with class="milk-text"}*/
   font: bold 2.6em "Inknut Antiqua", serif;
-  color: white
+  color: white;
   text-shadow: 0 2px 3 px #000;
 
 /* ID selector (apply to one unique element per page)*/
 
 #logo {
 /* select element with ID="logo"*/
-  background = "aqua"
+  background = "aqua";
 }
 
 #logo h1 { /*only style h1 if inside the id logo element}*/
@@ -47,16 +47,16 @@ select element based on event state or relationship with other elements
 */
 /* this is a compound selector that is also psudo class*/
 #details a:link, #details a:visited {
-  color: black
+  color: black;
   text-decoration: none;
 }
 
 #details a:hover{
-  color:black
-  text-decoration: underline
+  color:black;
+  text-decoration: underline;
 }
 
 #details a:active{
-  color:red
-  text-decoration: underline
+  color:red;
+  text-decoration: underline;
 }
