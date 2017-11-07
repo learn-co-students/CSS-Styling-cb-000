@@ -1,0 +1,15 @@
+/* This is a comment */
+
+/* CSS Syntax:
+
+selector {
+property: value;
+property: value;
+}
+*/
+
+/* Type selector */
+
+p {
+  font-size 1em; /* 1em = 16px */
+}
