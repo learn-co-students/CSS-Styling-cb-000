@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Playball|Rancho');
+
+p {
+  font-size: 0.75em;
+  line-height: 1.25em;
+}
+
+figcaption {
+  font: normal 0.75em/1.25em Rancho, cursive;
+  color: #777;
+  text-align: center;
+}
+
+.milk-text {
+  font: bold 2.5em Rancho, cursive;
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+}
+
+#logo {
+  background: rgb(127,46,16);
+}
+
+#logo h1 {
+  font-family: Playbill, cursive;
+}
+
+#logo h2 {
+  font-family: Rancho, cursive;
+}
+
+#details a:link, #details a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
